@@ -1,0 +1,22 @@
+/* Structure */
+table {
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .mat-form-field {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  th.mat-sort-header-sorted {
+    color: black;
+  }
+
+  tr.element-row:not(.example-expanded-row):hover {
+    background: whitesmoke;
+  }
+  
+  tr.element-row:not(.example-expanded-row):active {
+    background: #ad5106;
+  }

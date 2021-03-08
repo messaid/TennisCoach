@@ -1,0 +1,17 @@
+<p class="alert-message" *ngIf="authError$ | async">{{authError$ | async}}</p>
+<mat-card class="mat-card-class">
+  <form (ngSubmit)="login(loginForm.value)" class="form-class" [formGroup]="loginForm">
+    <mat-form-field class="login-full-width">
+      <mat-label>Email</mat-label>
+      <input matInput type="email" name="email" formControlName="email">
+      <mat-error >
+        {{getErrorMessage()}}
+      </mat-error>
+    </mat-form-field>
+    <mat-form-field class="login-full-width">
+      <mat-label>Password</mat-label>
+      <input matInput type="password" name="password" formControlName="password">
+    </mat-form-field>
+    <button class="submit-button" mat-button type="submit" [disabled]="!loginForm.valid" >Log in</button>
+  </form>
+</mat-card>

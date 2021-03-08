@@ -1,0 +1,59 @@
+.list-class{
+  padding-left: 100px;    
+}
+
+.example-card {
+    max-width: 400px;
+    min-width: 400px;
+    height: 120px !important;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(221, 183, 113);
+    cursor: pointer;
+  }
+  
+  mat-grid-tile {
+    background: lightblue;
+  }
+
+  .icon-dashboard{
+    font-size: 120px; 
+    position: absolute;
+    text-align: center;
+  }
+
+  .title-card{
+    -webkit-box-orient: vertical;
+    font-size: 19px !important;
+    font-weight: 500;
+    margin-left: 35%;
+    text-align: left;
+    overflow: hidden;
+    width:260px;
+    min-height: 50px;
+    max-height: 50px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+  }
+
+ .type-card{
+  font-size: 15px !important;
+  margin-left: 35%;
+  margin-top: 40px;
+  text-align: left;
+ }
+
+  .location-card{
+    font-size: 15px !important;
+    margin-left: 35%;
+    margin-top: 10px;
+    text-align: left;
+    float: left;
+  }
+
+  .price-card{
+    float: right;
+    font-size: 15px !important;
+    margin-top: 10px;
+
+  }
